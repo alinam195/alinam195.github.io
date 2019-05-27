@@ -8,3 +8,21 @@ body{
     padding: 0;
     border: none;
 }
+#bannerContainer{
+    text-align: center;
+    background-color: #4286f4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+#aboutContainer{
+    width: 100%;
+    margin: 0%;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.aboutBlock{
+    width: calc(100% - 300px);
+}
