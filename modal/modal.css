@@ -1,0 +1,77 @@
+.modalContainer{
+    max-height: 100%;
+    height: calc(100% - 200px);
+    width: calc(100% - 200px);
+    z-index: 3; /* Sit on top */
+    padding: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    overflow: none; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modalContent{
+    background-color: #fefefe;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #888;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    min-width: 800px;
+}
+.modalTitle{
+    height: 40px;
+    font-size: 20px;
+    margin: 0;
+    overflow: none;
+}
+.modalLocation{
+    height: 20px;
+    font-size: 16px;
+    color: var(--menu-color);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.modalImage{
+    max-width: 100%;
+    max-height: 100%;
+}
+.modalImageContainer{
+    height: 100%;
+    float: left;
+    width: calc(100% - 290px);
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.modalCommentContainer{
+    float: left;
+    width: 250px;
+    padding: 20px;
+    overflow: wrap;
+    position: relative;
+    height: calc(100% - 40px);
+}
+.modalComment{
+    height: 70%;
+    overflow-x: none;
+    overflow-y: auto;
+}
+.modalButtons{
+    text-align: center;
+    height: 5%;
+}
+.modalButton{
+    border: none;
+    background-color: #ffffff;
+}
+
+.modalContent:after{
+	content: "";
+	display: table;
+	clear: both;
+}

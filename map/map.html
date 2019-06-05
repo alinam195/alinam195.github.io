@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../root.css">  
+  <link rel="stylesheet" href="./map.css">
+  <script src="../struct.js"></script>
+  <script src="../modal/modal.js"></script>
+  <script src="map.js"></script>
+</head>
+<body onload="init()">
+  <table id="header"><tr>
+    <th><a href="../lander/index.html">Home<span class="peak"></span></a></th>
+    <th><a href="../map/map.html">Map<span class="peak"></span></a></th>
+    <th><a href="../people/people.html">People<span class="peak"></span></a></th>
+  </tr></table>
+  <div id="mapContainer">
+    <div id="map"></div>
+  </div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_YKc_quAIk-izxn55LxL5YRoNNvYaGDM&callback=initMap"></script>
+</body>
+</html>

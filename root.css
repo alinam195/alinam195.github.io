@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|PT+Mono|Poppins&display=swap');
+
 :root{
-    --background-color: #000000;
-    --secondary-background: #290928;
-    --active-color: #ffff00;
+    --menu-color: #586F7C;
+    --menu-text-color: #000000;
+    --pad-color: #FCF7FF;
+
+    --menu-font: 'Comfortaa', cursive;
+    --header-font: 'PT Mono', monospace;
+    --content-font: 'Poppins', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: var(--content-font);
+}
+a{
+    font-family: var(--menu-font);
+    text-decoration: none;
+    color: #000000;
+}
+h{
+    font-family: var(--header-font);
+}
+
+#header{
+    width: 100%;
+    height: 50px;
 }
